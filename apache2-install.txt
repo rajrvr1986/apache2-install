@@ -28,3 +28,19 @@ Footer navigation
 Terms
 Privacy
 Security
+
+
+ubuntu@ip-172-31-12-191:~$ sudo ansible nrk-instance1 -m shell -a "curl -I http://3.86.223.203"
+nrk-instance1 | CHANGED | rc=0 >>
+HTTP/1.1 200 OK
+Date: Thu, 15 Sep 2022 17:29:46 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Last-Modified: Thu, 15 Sep 2022 16:29:47 GMT
+ETag: "444-5e8b9c0f15515"
+Accept-Ranges: bytes
+Content-Length: 1092
+Vary: Accept-Encoding
+Content-Type: text/html  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0  1092    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+
